@@ -1,0 +1,46 @@
+* {
+  font-family: "Montserrat", "Oxygen", "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+/* Custom Class */
+.my-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.my-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.my-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-flex-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hide-data {
+  display: none;
+}
+
+.disable-btn {
+  cursor: not-allowed !important;
+}
+.shadow-box {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}

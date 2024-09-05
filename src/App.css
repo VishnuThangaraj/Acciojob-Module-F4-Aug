@@ -1,0 +1,82 @@
+.top-holder {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#search-box {
+  width: 600px;
+  height: 50px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 55px;
+}
+.table-holder {
+  background: transparent;
+  height: 75vh;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.table-holder::-webkit-scrollbar {
+  display: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.row:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.cell {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.cell img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.btn-holder .btn {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  margin-right: 10px;
+}
+
+.btn-holder .btn:hover {
+  background-color: #0056b3;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.glass-effect {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+}
+
+.make-green {
+  background-color: rgba(216, 255, 150, 0.578);
+  border: 2px solid rgba(216, 255, 150, 0.972);
+}
+
+.make-red {
+  background-color: rgba(251, 222, 180, 0.672);
+  border: 2px solid rgb(255, 222, 173);
+}
